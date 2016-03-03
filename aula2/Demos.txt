@@ -1,0 +1,27 @@
+*** Different members of a type
+csc /t:dll TypeMembersToIL.cs
+ildasm TypeMembersToIL.dll
+
+*** VB
+vbc HelloWorld.vb
+ildasm HelloWorld.exe
+
+*** C++/CLI
+cl
+cl /CLR ManagedCApp.cpp
+ildasm ManagedCApp.exe
+
+*** F#
+fsc SimpleFSharp
+> show IL and entrypoint
+
+*** CLS
+cd 1.SimplePrograms
+csc
+csc SomeLibraryType.cs /target:library
+ildasm SomeLibraryType.dll
+> show metadata
+
+*** Multi-module assembly
+cd ..\2.Multi-file-Assembly
+use build.bat
