@@ -1,0 +1,16 @@
+*** IL review
+cd IL
+csc /o Sum.cs
+
+*** Safe code
+> ildasm /out:Sum2.il 
+addicionar um valor extra ao stack de avaliação
+> ilasm Sum2.il
+> peverify
+
+*** Class loading
+Classes apenas carregadas quando necessário
+cd C#_IL
+csc ClassLoading.cs
+ver com 'perfmon.exe', categoria ".NET CLR Loading"
+
