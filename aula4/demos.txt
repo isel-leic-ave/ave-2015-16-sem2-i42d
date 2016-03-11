@@ -1,0 +1,10 @@
+
+** Essential Types (C# e IL)
+* classes, interfaces / estende, implementa
+* construtores (estáticos / instância)
+* campos (estáticos / instância)
+* métodos
+cd C#_IL
+csc /t:exe AClass.cs
+
+
