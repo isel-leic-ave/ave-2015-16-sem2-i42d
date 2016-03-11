@@ -1,15 +1,15 @@
 public class IL
 {
-    public static int Operations()
+    public static int Operations(int a)
     {
-        int a = 1, b = 2, c = 3;
-        a += b + c;
-        return a;
+        int b = 2, c = 3;
+        b += a + c;
+        return b;
     }
 
     public static void Main()
     {
-        System.Console.WriteLine(Operations());
+        System.Console.WriteLine(Operations(5));
     }
 
 }
