@@ -2,7 +2,11 @@ using System;
 
 interface I { }
 
-class Employee { }
+class Employee {
+    protected String name;
+    protected String department;
+
+}
 
 class Manager : Employee { }
 
