@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFilters", "MyFilters\MyFi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterApp", "FilterApp\FilterApp.csproj", "{0A554848-EA66-423E-BCDF-F93A43AC7671}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiltersLikeMethods", "FiltersLikeMethods\FiltersLikeMethods.csproj", "{6D480263-AD14-4E04-9CF1-79C29D862D32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0A554848-EA66-423E-BCDF-F93A43AC7671}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A554848-EA66-423E-BCDF-F93A43AC7671}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A554848-EA66-423E-BCDF-F93A43AC7671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D480263-AD14-4E04-9CF1-79C29D862D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D480263-AD14-4E04-9CF1-79C29D862D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D480263-AD14-4E04-9CF1-79C29D862D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D480263-AD14-4E04-9CF1-79C29D862D32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
