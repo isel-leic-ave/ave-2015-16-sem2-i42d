@@ -51,21 +51,20 @@ namespace StructDemo
         {
             Point first = new Point(2,4);
 
-            first.GetType();
-
-            first.x = 100;
-            Point p;  // <=> p = new Point();
+            Point p;                // variável local com espaço para dois inteiros (x e y)
             p.x = 10;
             p.y = 20;
-            Point.Display(p);
-            Point p2 = new Point();
+            Point.Display(p);  
+
+            Point p2 = new Point(); // usa initobj para iniciar os campos com valor por omissão
             Point.Display(p2);
 
-            /*Point p1 = new Point(50, 60);
-            Point.Display(p1);
-            */
             // call to instance method
             p2.Add(3);
+
+            // copy
+            Point other = p2;
+            Point.Display(other);
 
             A a1 = new A(), a2 = new A();
             if (a1.Equals(a2)) // compara equivalencia
@@ -84,18 +83,15 @@ namespace StructDemo
             {
 
             }
-
-
-
+            
+           
+            //call by ref
+            Point.Display(ref p);
+            
+            // call by copy
+            Point.Display(p);
+            
             /*
-            // call by ref
-            Point.Display(ref p1);
-            Point.Display(p1);
-
-            // copy
-            Point other = p1;
-            Point.Display(other);
-
             Console.WriteLine(p1.Equals(other));
             Console.WriteLine(p1.Equals(p));
             //Console.WriteLine(p1 == other);
