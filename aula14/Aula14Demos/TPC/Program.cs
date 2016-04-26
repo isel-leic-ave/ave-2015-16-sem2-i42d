@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TPC
 {
@@ -29,9 +25,10 @@ namespace TPC
 
     class C : B
     {
-        public override void M1()
+        public new virtual void M1()
         {
             Console.WriteLine("C.M1");
+            base.M1();
         }
     }
     class D : C
@@ -54,7 +51,7 @@ namespace TPC
             a.M3();
             a.M1();
             a.M2();
-            //((C)a).M1(); /* 1.b)*/
+            ((C)a).M1(); /* 1.b)*/
         }
     }
 }
