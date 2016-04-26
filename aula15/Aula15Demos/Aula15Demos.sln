@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterefaceDispatch", "InterefaceDispatch\InterefaceDispatch.csproj", "{A72DB1C1-4C38-4F47-ABA1-877F176EF5C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesIntro", "DelegatesIntro\DelegatesIntro.csproj", "{9EC0FC89-A9D2-4F22-8CDB-25324458CEC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A72DB1C1-4C38-4F47-ABA1-877F176EF5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A72DB1C1-4C38-4F47-ABA1-877F176EF5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A72DB1C1-4C38-4F47-ABA1-877F176EF5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A72DB1C1-4C38-4F47-ABA1-877F176EF5C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC0FC89-A9D2-4F22-8CDB-25324458CEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC0FC89-A9D2-4F22-8CDB-25324458CEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC0FC89-A9D2-4F22-8CDB-25324458CEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC0FC89-A9D2-4F22-8CDB-25324458CEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
