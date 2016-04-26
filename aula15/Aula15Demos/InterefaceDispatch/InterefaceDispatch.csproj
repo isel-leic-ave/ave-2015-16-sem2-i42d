@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Interfaces.cs" />
     <Compile Include="OtherOverride.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DelegatesIntro
 {
     delegate void Display(int v);
 
-    class Program
+    class FirstDelegate
     {
         static void Main(string[] args)
         {

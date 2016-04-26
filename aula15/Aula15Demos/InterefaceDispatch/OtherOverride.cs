@@ -21,7 +21,7 @@ namespace MethodDispatchExample
 
     public class Test
     {
-        public static void DoIt()
+        public static void Main()
         {
             C c = new C();
             A a = c; B b = c; I i = c;
