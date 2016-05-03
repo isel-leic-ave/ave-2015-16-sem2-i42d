@@ -2,18 +2,18 @@
 
 namespace DelegatesIntro
 {
-    delegate void Display(int v);
+    public delegate void Display(int v);
 
-    class FirstDelegate
+    public class FirstDelegate
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             Display d = new Display(Show1);
 
             int[] values = new int[] { 1, 2, 3, 4, 5 };
 
             Process(values, d);
-        }
+        }*/
 
         public static void Process(int[] values, Display d)
         {

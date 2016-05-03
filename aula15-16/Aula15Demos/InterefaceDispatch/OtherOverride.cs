@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MethodDispatchExample
 {
@@ -15,9 +10,9 @@ namespace MethodDispatchExample
         public virtual void M() { Console.Write("A "); }
     }
 
-    class B : A { public new virtual void M() { Console.Write("B "); } }
+    class B : A, I { public new virtual void M() { Console.Write("B "); } }
 
-    class C : B { public new void M() { Console.Write("C "); } }
+    class C : B { public override void M() { Console.Write("C "); } }
 
     public class Test
     {
