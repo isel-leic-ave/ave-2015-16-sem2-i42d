@@ -18,7 +18,7 @@ namespace DelegateCombine
         {
             Action<int> m = M1;
             Action<int> a = m;
-            a += M2;
+            m += M2;
             //
             // <=> 
             // a = (Action<int>) Delegate.Combine(M1, M2);

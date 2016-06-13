@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace Aula20Demos
 {
+
+    class A<T>
+    {
+        public A() {
+            int a = 1;
+        }
+    }
+
     static class IEnuemrableUtils
     {
         

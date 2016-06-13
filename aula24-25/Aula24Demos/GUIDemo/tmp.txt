@@ -1,0 +1,12 @@
+        public static void RegistHandlerInEvents(Control control, Object obj, MethodInfo mi, String pattern)
+        {
+            foreach (EventInfo ei in control.GetType().GetEvents())
+            {
+                Delegate d = Delegate.CreateDelegate(ei.EventHandlerType, obj, mi);
+                if (ei.Name.Contains(pattern))
+                {
+                    ei.AddEventHandler(control, d);
+                    Console.WriteLine("New listener registered at event {0}", ei.Name);
+                }
+            }
+        }
